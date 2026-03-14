@@ -293,7 +293,6 @@ linkedLists.signals   = build_linked_list(nodes(strcmp({nodes.type}, 'signal') |
 %% =========================
 % 16) KD-TREE FOR LOOKUP
 %% =========================
-% Included because Task 2 mentions it as an optional/valuable comparison structure.
 landmarkIdx = find(strcmp({nodes.type}, 'building'));
 signalIdx   = find(strcmp({nodes.type}, 'signal') | strcmp({nodes.type}, 'waiting'));
 
